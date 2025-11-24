@@ -1,0 +1,1247 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Blog</title>
+		<link rel="stylesheet" href="/assets/css/styles.css">
+		<link rel="stylesheet" href="/assets/css/box.css">
+		<link rel="stylesheet" href="">
+		<link rel="icon" href="/assets/favicon.ico" type="image/ico"/>
+		<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'],['\\(','\\)']]}
+    });
+</script>
+<script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	</head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-EK4FJFNX4J"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-EK4FJFNX4J');
+	</script>
+	<div class="contents">
+		<body id="body_tgt" class="light">
+			<br><nav>
+    
+        <a href="/" >
+            Home 
+        </a>&nbsp;
+    
+        <a href="/about" >
+            About 
+        </a>&nbsp;
+    
+        <a href="/blog"  class="current">
+            Blog 
+        </a>&nbsp;
+    
+</nav>
+		</body>
+		<!-- <div id="control">
+			<input type="button" value="Light" id="light_btn" />
+			<input type="button" value="Dark" id="dark_btn" />
+		</div> -->
+	</div>
+	<script src="/javascript/theme.js"></script>
+	<div class="container">
+		<body id="body_tgt">
+			<head>
+    <style>
+        img {
+            display:block;
+            margin: auto;
+            box-shadow: 0px 0px 5px 3px gray;
+            width: 650px;
+            height: 400px;
+        }
+    </style>
+</head>
+<h1>Latest Posts</h1>
+<hr>
+
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 15 Nov 2024&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2024/11/15/%EB%9D%BC%EA%B7%B8%EB%9E%91%EC%A3%BC-%EC%8A%B9%EC%88%98%EB%B2%95%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0.html">라그랑주 승수법에 대한 고찰</a></h2>
+    </li>
+</ul>
+<a href="/2024/11/15/%EB%9D%BC%EA%B7%B8%EB%9E%91%EC%A3%BC-%EC%8A%B9%EC%88%98%EB%B2%95%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0.html">
+    <script>
+        var str = `<p>Contents</p>
+<blockquote>
+  <ol>
+    <li>수식</li>
+    <li>해석</li>
+  </ol>
+</blockquote>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 14 Feb 2023&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2023/02/14/KMWP-%ED%95%9C%EA%B5%AD%EC%96%B4-%EC%88%98%ED%95%99%EB%AC%B8%EC%A0%9C-%ED%92%80%EC%9D%B4-%EB%B0%A9%EC%95%88-(with-TPU).html">Kmwp: 한국어 수학문제 풀이 방안 (with tpu)</a></h2>
+    </li>
+</ul>
+<a href="/2023/02/14/KMWP-%ED%95%9C%EA%B5%AD%EC%96%B4-%EC%88%98%ED%95%99%EB%AC%B8%EC%A0%9C-%ED%92%80%EC%9D%B4-%EB%B0%A9%EC%95%88-(with-TPU).html">
+    <script>
+        var str = `<p><a href="https://github.com/calc-ai/overview">해당 깃헙</a><br />
+작년 이 맘때 즈음에 운 좋게도 교육기관 AIFFEL에서 기업 TUNiB과 함께 프로젝트를 진행했다. 함께 진행했다고 하기엔, 튜닙에서 제시한 과제에 참여한 방향이기는 하지만, 그 주제가 상당히 흥미롭고 재미있는 편이었다. 당장 정리해서 블로깅을 하고 싶었지만, 개발 속도가 받쳐주지 않아 스스로 크게 만족할 수 있는 지점에 도달하지 못했었던 것 같다. 당시 NLP 언어모델이 수학문제를 풀게 만들기 위해서 얼마나 삽질을 했는지 모른다. 지도해주는 퍼실님 말도 다 무시하고, 혼자서 삽질만 계속하는 편이었다.(지금 돌아보면, 해당 퍼실님의 의견을 들었으면 무조건 성능이 더 좋았을 것이다. Prompt tuning, DSPT등의 이야기를 해주셨었는데, 다 무시했다.. 그 당시에는 논문을 보고도 무슨이야기인지 모르기도 했다.)<br />
+<a href="https://tunib.tistory.com/m/entry/20220308-TUNiB-x-AIFFEL-DKTC-KMWP-컴피티션">TUNiB 블로그: TUNiB-x-AIFFEL-DKTC-KMWP-컴피티션</a><br />
+<img src="https://user-images.githubusercontent.com/59143479/158108801-5c0fcbf1-2120-4ec7-91e8-f8dd0fdc859d.png" alt="image" class="contents_image" />
+감사하게도 튜닙에서 블로그를 정리해서 기업 블로그에 실리게 되었다. 아무튼 간에 해당 내용을 조금 다뤄볼까 한다.</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 28 Jan 2023&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2023/01/28/%ED%8F%B4%EB%8D%94-%EC%B0%BD%EC%97%90%EC%84%9C-%EA%B2%BD%EB%A1%9C-%EB%B3%B4%EB%8A%94-%EB%B0%A9%EB%B2%95-(Mac-%EC%9E%85%EB%AC%B8).html">폴더 창에서 경로 보는 방법 (mac 입문)</a></h2>
+    </li>
+</ul>
+<a href="/2023/01/28/%ED%8F%B4%EB%8D%94-%EC%B0%BD%EC%97%90%EC%84%9C-%EA%B2%BD%EB%A1%9C-%EB%B3%B4%EB%8A%94-%EB%B0%A9%EB%B2%95-(Mac-%EC%9E%85%EB%AC%B8).html">
+    <script>
+        var str = `<p>해킨으로 Mac OS를 설치했다.
+컴맹이었는데, 자발적으로 공부를 몇일 밤을 새서 한건지 모르겠다. 왠일로 노트북 뒷면도 뜯어보고.
+Mac OS 에서는 폴더에 경로가 보이지 전부 보이지를 않았고, 경로창에 경로를 치고 들어가는 기능도 기본으로 떠있지가 않았다.</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 28 Oct 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/10/28/Mysql-create-function.html">Mysql create function</a></h2>
+    </li>
+</ul>
+<a href="/2022/10/28/Mysql-create-function.html">
+    <script>
+        var str = `<p>Mysql 에서 함수를 만드려고 할때, 원하는대로 되지 않고 에러가 날 때가 있다.
+기본적으로 함수는 만들 수 없게 세팅이 되어있어서 그렇다.
+관리자 권한으로 세팅을 변경해줄 수 있다.</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 11 Oct 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/10/11/TPU-tensorflow-version-management.html">Tpu tensorflow version management</a></h2>
+    </li>
+</ul>
+<a href="/2022/10/11/TPU-tensorflow-version-management.html">
+    <script>
+        var str = `<p>tpu vm 에서 tensorflow 버전을 바꿔주기 위해서는 libtpu.so의 버전을 같이 관리해주어야한다.</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 26 Sep 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/tool/2022/09/26/Browser-in-vscode.html">Browser in vscode</a></h2>
+    </li>
+</ul>
+<a href="/tool/2022/09/26/Browser-in-vscode.html">
+    <script>
+        var str = `<p>live preview를 깔면 아래와 같이 web browser를 편하게 볼 수 있다.</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 09 Sep 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/linux/2022/09/09/linux-terminal-tmux-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.html">Linux terminal tmux 사용하기</a></h2>
+    </li>
+</ul>
+<a href="/linux/2022/09/09/linux-terminal-tmux-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.html">
+    <script>
+        var str = `<p>{
+    “version”:”2.0.0”,
+    “tasks”: [
+        {
+            “label”: “deep”,
+            “group”: “test”,
+            “command”: “bash”,
+            “args”: [
+                “-c”, “tmux new -s hchang &amp;&amp; tmux send-keys -t ‘cd ${fileDirname} &amp;&amp; python3 ${fileDirname}/${fileBasename}’ C-m”
+            ]
+        }
+    ]
+}</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 09 Sep 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/linux/2022/09/09/csv-control-on-linux-Bash-shell.html">Csv control on linux bash shell</a></h2>
+    </li>
+</ul>
+<a href="/linux/2022/09/09/csv-control-on-linux-Bash-shell.html">
+    <script>
+        var str = `<p>작업을 하다보면, 자동화 방면에 있어서는, 또 기초적인 부분일 수록 터미널에서의 명령어를 잘 사용할 줄 아는 것이 편하다.</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 07 Sep 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/09/07/Ubuntu-desktop-on-server.html">Ubuntu desktop on server</a></h2>
+    </li>
+</ul>
+<a href="/2022/09/07/Ubuntu-desktop-on-server.html">
+    <script>
+        var str = `<div>일반적으로 원격으로 서버나 PC에 접속해서 작업을 진행하기 위해서는 ssh를 사용하거나 원격 데스크톱 연결 (RDP)를 주로 사용한다.</div>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 29 Aug 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/08/29/X11-forwarding-(ssh-connect).html">X11  forwarding (ssh connect)</a></h2>
+    </li>
+</ul>
+<a href="/2022/08/29/X11-forwarding-(ssh-connect).html">
+    <script>
+        var str = `<h2 id="리눅스-x11-포워딩x11-forwarding---ssh-접속으로-gui-프로그램-실행하기">리눅스 X11 포워딩(X11 Forwarding) - ssh 접속으로 GUI 프로그램 실행하기</h2>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 29 Aug 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/08/29/%EC%9B%90%EA%B2%A9-%EC%84%9C%EB%B2%84%EB%A1%9C-%ED%8F%B4%EB%8D%94-%EC%A0%84%EC%86%A1.html"> 원격 서버로 폴더 전송</a></h2>
+    </li>
+</ul>
+<a href="/2022/08/29/%EC%9B%90%EA%B2%A9-%EC%84%9C%EB%B2%84%EB%A1%9C-%ED%8F%B4%EB%8D%94-%EC%A0%84%EC%86%A1.html">
+    <script>
+        var str = `<h3 id="소개"><strong>소개</strong></h3>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 24 Aug 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/08/24/k380-ubuntu-fn-key-deactivation.html">K380 ubuntu fn key deactivation</a></h2>
+    </li>
+</ul>
+<a href="/2022/08/24/k380-ubuntu-fn-key-deactivation.html">
+    <script>
+        var str = `<ol>
+  <li>First install build-essential package (includes gcc, make, libc-dev, etc.).</li>
+</ol>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 24 Aug 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/08/24/Mysql-server-%EB%8B%A4%EB%A3%A8%EA%B8%B0.html">Mysql server 다루기</a></h2>
+    </li>
+</ul>
+<a href="/2022/08/24/Mysql-server-%EB%8B%A4%EB%A3%A8%EA%B8%B0.html">
+    <script>
+        var str = `<p>아래 명령어로 mysql을 설치한다.</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 24 Aug 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/08/24/Docker-sudo-%EA%B6%8C%ED%95%9C%EC%A3%BC%EA%B8%B0.html">Docker sudo 권한주기</a></h2>
+    </li>
+</ul>
+<a href="/2022/08/24/Docker-sudo-%EA%B6%8C%ED%95%9C%EC%A3%BC%EA%B8%B0.html">
+    <script>
+        var str = `<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>usermod <span class="nt">-aG</span> docker <span class="nv">$USER</span>
+</code></pre></div></div>
+<p>해당 명령어 입력 후 재로그인을 하면 적용된다.</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 17 Aug 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/08/17/Flask-page-hosting.html">Flask page hosting</a></h2>
+    </li>
+</ul>
+<a href="/2022/08/17/Flask-page-hosting.html">
+    <script>
+        var str = `<p>flask로 내가 원하는 ui를 만들어서 써야겠다.</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 13 Aug 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/08/13/webrtc.html">Webrtc</a></h2>
+    </li>
+</ul>
+<a href="/2022/08/13/webrtc.html">
+    <script>
+        var str = `<p>https://github.com/coturn/coturn
+위 내용을 참고하면 손쉽게 turn server를 구축할 수 있다.
+아마도</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 12 Aug 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/08/12/tf.data.Dataset-%EC%9D%80-%EC%99%9C-%EC%93%B0%EB%8A%94%EA%B1%B8%EA%B9%8C.html">Tf.data.dataset 은 왜 쓰는걸까</a></h2>
+    </li>
+</ul>
+<a href="/2022/08/12/tf.data.Dataset-%EC%9D%80-%EC%99%9C-%EC%93%B0%EB%8A%94%EA%B1%B8%EA%B9%8C.html">
+    <script>
+        var str = `<p>왜 쓰냐면
+쓰면 좋기 때문이다.</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 10 Aug 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/08/10/mysql-%EA%B0%95%EC%A0%9C%EC%82%AD%EC%A0%9C.html">Mysql 강제삭제</a></h2>
+    </li>
+</ul>
+<a href="/2022/08/10/mysql-%EA%B0%95%EC%A0%9C%EC%82%AD%EC%A0%9C.html">
+    <script>
+        var str = ``
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 10 Aug 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/08/10/Docker%EC%97%90%EC%84%9C-%ED%95%9C%EA%B8%80%EC%93%B0%EA%B8%B0.html">Docker에서 한글쓰기</a></h2>
+    </li>
+</ul>
+<a href="/2022/08/10/Docker%EC%97%90%EC%84%9C-%ED%95%9C%EA%B8%80%EC%93%B0%EA%B8%B0.html">
+    <script>
+        var str = `<p>기본적으로 docker는 bash창 이용 시 한글 입력이 되지 않고 마구마구 깨져서 나오게 된다.
+한글 입력을 하기 위해서는 locales 설정을 해줘야 한다.
+ </p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 15 Jul 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/07/15/Mac-%EC%A3%BC%EC%86%8C-%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0.html">Mac 주소 변경하기</a></h2>
+    </li>
+</ul>
+<a href="/2022/07/15/Mac-%EC%A3%BC%EC%86%8C-%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0.html">
+    <script>
+        var str = `<p>맥주소는 기기 자체의 고유한 것이기 때문에, 간간히 서비스에서 사용자를 구분하는 용도로 쓰인다.
+아래의 방법으로 맥주소를 바꾸어 특정 서비스를 이용해볼 수 있겠다.</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 13 Jul 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/07/13/Mysql-%EB%AA%85%EB%A0%B9%EC%96%B4-%EB%AA%A8%EC%9D%8C.html">Mysql 명령어 모음</a></h2>
+    </li>
+</ul>
+<a href="/2022/07/13/Mysql-%EB%AA%85%EB%A0%B9%EC%96%B4-%EB%AA%A8%EC%9D%8C.html">
+    <script>
+        var str = `<p>테이블 삭제
+drop {schema $schema_name} | {table $table_name};</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 02 Jul 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/07/02/Web%EC%97%90%EC%84%9C-video,-audio-%EB%8B%A4%EB%A3%A8%EA%B8%B0.html">Web에서 video, audio 다루기</a></h2>
+    </li>
+</ul>
+<a href="/2022/07/02/Web%EC%97%90%EC%84%9C-video,-audio-%EB%8B%A4%EB%A3%A8%EA%B8%B0.html">
+    <script>
+        var str = `<p>stream을 그대로 보내서 쌓아놓으면 용량이 너무 커서 출력할 수가 없다.</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 28 Jun 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/06/28/%EC%9A%B0%EB%B6%84%ED%88%AC-%EB%85%B9%EC%9D%8C%EA%B3%BC-%EC%9E%AC%EC%83%9D.html">우분투 녹음과 재생</a></h2>
+    </li>
+</ul>
+<a href="/2022/06/28/%EC%9A%B0%EB%B6%84%ED%88%AC-%EB%85%B9%EC%9D%8C%EA%B3%BC-%EC%9E%AC%EC%83%9D.html">
+    <script>
+        var str = `<h2 id="우분투에서-녹음-재생하기">우분투에서 녹음, 재생하기</h2>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 28 Jun 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/06/28/Tacotron-Towards-End-to-End-Speech-Syntyesis.html">Tacotron: towards end To End speech syntyesis</a></h2>
+    </li>
+</ul>
+<a href="/2022/06/28/Tacotron-Towards-End-to-End-Speech-Syntyesis.html">
+    <script>
+        var str = `<h2 id="intro">Intro</h2>
+<p>일단 음성데이터를 다루는 일을 이제야 시작하려고 하는데, 솔직히 말해서 아는게 하나도 없었다.
+오디오 분야에서는 44100Hz의 음성 데이터를 쓰는 일이 많은 것 같다.
+사람은 20 ~ 20000 Hz 정도의 음성을 들을 수 있다.</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 28 Jun 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/06/28/Natural-tts-synthesis-by-conditioning-wavenet-on-mel-spectrogram-predictions.html">Natural tts synthesis by conditioning wavenet on mel spectrogram predictions</a></h2>
+    </li>
+</ul>
+<a href="/2022/06/28/Natural-tts-synthesis-by-conditioning-wavenet-on-mel-spectrogram-predictions.html">
+    <script>
+        var str = `<p>0.</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 28 Jun 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/06/28/Mel-Spectrogram.html">Mel spectrogram</a></h2>
+    </li>
+</ul>
+<a href="/2022/06/28/Mel-Spectrogram.html">
+    <script>
+        var str = `<h2 id="이번에는-mel-spectrogram을-만들어-볼것이다">이번에는 mel spectrogram을 만들어 볼것이다.</h2>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 27 Jun 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/06/27/gcp-tpu-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.html">Gcp tpu 사용하기</a></h2>
+    </li>
+</ul>
+<a href="/2022/06/27/gcp-tpu-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.html">
+    <script>
+        var str = `<p>gcp에서 tpu를 사용해볼 수 있는 기회가 생겼다.
+계속 쓸 수 있을지는 모르겠지만, 일단 너무 좋다.
+일단 써보려고 하니, 그냥 그렇게 쉽게만 쓸 수 있는 건 아니라는 사실을 깨닫고 있다.
+일단 외부 환경설정을 해주어야한다.</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 25 Jun 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/06/25/Node-js-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.html">Node js 시작하기</a></h2>
+    </li>
+</ul>
+<a href="/2022/06/25/Node-js-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.html">
+    <script>
+        var str = `<p>우분투 22.04버전에서 node js를 설치했다.
+예전에 언젠가 공부하겠거니 생각하고 별 생각없이 node 12정도 버전을 깐 적이 있는데, 삭제하기도 힘들고 다시 깔기도 힘들었다. 굉장히 오류가 많이나오는 프로그램이라는 생각이 들었다. 원래 이렇게 쓰는걸까..
+삭제하는 방법은 있을거 같은 위치를 전부 뒤져서 삭제하는 것이었다.</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 22 Jun 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/06/22/MySQL-%EC%8B%9C%EC%9E%91.html">Mysql 시작</a></h2>
+    </li>
+</ul>
+<a href="/2022/06/22/MySQL-%EC%8B%9C%EC%9E%91.html">
+    <script>
+        var str = `<p>우분투 최신버전을 쓰고 있어서 그런지 도커가 이미 깔려있었다.
+mysql을 다루는 것은 서버를 다루는 것과 매한가지라는 이야기에, 도커로 이어서 하는게 더 좋겠다는 생각을 했다. 도커도 익힐 겸.
+아니나 다를까 도커로 mysql을 하는법은 무수히 나왔고, 방법도 교재에서 설명하고 있는 것에 비해 간단했다.
+하지만 더 불편한 점도 있을 것 같기는 하다.
+먼저</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker pull mysql
+</code></pre></div></div>
+<p>로 이미지를 받아왔다. 조금 해보니 <code class="language-plaintext highlighter-rouge">docker pull myspl:8.0.22</code>로 설치하는게 쓸때 예쁘다.</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 21 Jun 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/06/21/gcp_pui%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0.html">Gcp_pui연결하기</a></h2>
+    </li>
+</ul>
+<a href="/2022/06/21/gcp_pui%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0.html">
+    <script>
+        var str = `<h1 id="희대의-삽질">희대의 삽질</h1>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 21 Jun 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/06/21/Jupyterlab-%EC%9B%90%EA%B2%A9-%EC%A0%91%EC%86%8D%ED%95%98%EA%B8%B0.html">Jupyterlab 원격 접속하기</a></h2>
+    </li>
+</ul>
+<a href="/2022/06/21/Jupyterlab-%EC%9B%90%EA%B2%A9-%EC%A0%91%EC%86%8D%ED%95%98%EA%B8%B0.html">
+    <script>
+        var str = `<p>웬만하면 가상환경을 만들어서 패키지 관리를 하자.
+나는 콘다를 좋아하지 않기때문에 항상
+python3 -m venv hchang 등 으로 가상환경을 만들어 관리한다.</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 20 Jun 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/06/20/BERT-Pretraingin-of-Deep-Bidirectional-Transformers-for-Language-Understanding.html">Bert: pretraingin of deep bidirectional transformers for language understanding</a></h2>
+    </li>
+</ul>
+<a href="/2022/06/20/BERT-Pretraingin-of-Deep-Bidirectional-Transformers-for-Language-Understanding.html">
+    <script>
+        var str = `<ol>
+  <li>목차</li>
+</ol>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 18 Jun 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/06/18/%ED%99%94%EC%83%81%ED%86%B5%ED%99%94-%EC%B1%84%ED%8C%85-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0.html">화상통화 채팅 구현하기</a></h2>
+    </li>
+</ul>
+<a href="/2022/06/18/%ED%99%94%EC%83%81%ED%86%B5%ED%99%94-%EC%B1%84%ED%8C%85-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0.html">
+    <script>
+        var str = `<ol>
+  <li>NAT</li>
+</ol>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 18 Jun 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/06/18/Troubleshooting-for-Dual-booting-ubuntu.html">Troubleshooting for dual booting ubuntu</a></h2>
+    </li>
+</ul>
+<a href="/2022/06/18/Troubleshooting-for-Dual-booting-ubuntu.html">
+    <script>
+        var str = `<blockquote>
+
+</blockquote>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 08 Mar 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/03/08/AIFFEL-%EA%B8%B0%EC%97%85%EC%A3%BC%EC%A0%9C-%EB%B0%9C%ED%91%9C-%ED%9B%84%EA%B8%B0-with-TUNiB.html">Aiffel 기업주제 발표 후기 with tunib</a></h2>
+    </li>
+</ul>
+<a href="/2022/03/08/AIFFEL-%EA%B8%B0%EC%97%85%EC%A3%BC%EC%A0%9C-%EB%B0%9C%ED%91%9C-%ED%9B%84%EA%B8%B0-with-TUNiB.html">
+    <script>
+        var str = `<style>
+</style>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 06 Mar 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/03/06/AIFFEL.html">Aiffel</a></h2>
+    </li>
+</ul>
+<a href="/2022/03/06/AIFFEL.html">
+    <script>
+        var str = `<p>아이펠이라는 이름 모르던 곳에 지원해서 정신없이 6개월을 보냈다.<br />
+최근에 와서야 안거지만, 사람들은 모두의 연구소를 알고, 그 가치를 알고 지원했다고 한다.<br />
+나는 그 가치는 몰랐지만, 이곳에 모인 사람들의 가치는 잘 안다.<br /></p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 05 Mar 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/03/05/%EB%8C%93%EA%B8%80-%EA%B8%B0%EB%8A%A5-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.html">댓글 기능 사용하기</a></h2>
+    </li>
+</ul>
+<a href="/2022/03/05/%EB%8C%93%EA%B8%80-%EA%B8%B0%EB%8A%A5-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.html">
+    <script>
+        var str = `<p>찾아보면 사람들이 각기 다른 방법으로 댓글 기능을 구현한 것들을 볼 수 있다.<br />
+일단 자바스크립트로 직접 구현한 것들도 차차 따라해봐야겠다는 생각이지만,<br />
+당장은 <a href="https://github.com/marketplace/utterances">utterances</a>라는 app을 사용하여,<br />
+블로그에 댓글을 만들어보려고 한다.    <br />
+물론 댓글은 누가 달아줘야 생기는 것이다.^^</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 18 Jan 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/01/18/%ED%97%A4%EC%96%B4%EC%A7%90.html">헤어짐</a></h2>
+    </li>
+</ul>
+<a href="/2022/01/18/%ED%97%A4%EC%96%B4%EC%A7%90.html">
+    <script>
+        var str = `<p>너무 아쉬웠다.<br />
+그렇게 친한 것도 아니었는데.<br />
+떠날때가 되니 친했었다 말해주었다.<br /></p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 01 Jan 2022&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2022/01/01/AI%EC%99%80-%EC%82%AC%EB%9E%8C.html">Ai와 사람</a></h2>
+    </li>
+</ul>
+<a href="/2022/01/01/AI%EC%99%80-%EC%82%AC%EB%9E%8C.html">
+    <script>
+        var str = `<p><img src="https://raw.githubusercontent.com/SunCreation/data/main/image/%EC%9D%B8%EA%B3%B5%EB%87%8C.png" width="500px" height="400px" style="display: block; margin: auto;" /></p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 28 Dec 2021&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2021/12/28/SVM%EA%B3%BC-Kernel-trick.html">Svm과 kernel trick</a></h2>
+    </li>
+</ul>
+<a href="/2021/12/28/SVM%EA%B3%BC-Kernel-trick.html">
+    <script>
+        var str = `<p>support vector
+decision boundary와 가장 가까운 데이터들만 지칭하는 벡터를 Support Vector라고 부른다.
+이 벡터들로만 계산하면 계산량이 현저히 줄어들 수 있는 것이다.</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 14 Dec 2021&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2021/12/14/Deep-Residual-Network.html">Deep residual network</a></h2>
+    </li>
+</ul>
+<a href="/2021/12/14/Deep-Residual-Network.html">
+    <script>
+        var str = `<h1 id="1-intro">1. Intro</h1>
+<p>공부를 하는데, 사람들이 레즈넷 레즈넷 하는데, 무엇인지 몰라서 한참을 고민했습니다.</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 07 Dec 2021&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2021/12/07/Batch-Normalization.html">Batch normalization</a></h2>
+    </li>
+</ul>
+<a href="/2021/12/07/Batch-Normalization.html">
+    <script>
+        var str = `<h1 id="0-인트로">0. 인트로</h1>
+<p>Batch Normalization을 써야한다.</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 23 Nov 2021&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2021/11/23/FaceNet.html">Facenet</a></h2>
+    </li>
+</ul>
+<a href="/2021/11/23/FaceNet.html">
+    <script>
+        var str = `<h1 id="1-저자가-하고-싶은-일">1. 저자가 하고 싶은 일</h1>
+<p>Face verification 얼굴 인식, 구분</p>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 17 Nov 2021&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2021/11/17/Protocol.html">Protocol</a></h2>
+    </li>
+</ul>
+<a href="/2021/11/17/Protocol.html">
+    <script>
+        var str = `<h3 id="protocol은-정보-신호를-주고-받을-때-통신규약을-뜻합니다-과거의-봉화도-일종의-protocol이-있다고-할-수-있는데-오늘은-저희가-사용하는-가장-중요한-protocol인-tcpip과-web에-대해-알아보도록-하겠습니다">Protocol은 정보 신호를 주고 받을 때 통신규약을 뜻합니다. 과거의 봉화도 일종의 Protocol이 있다고 할 수 있는데, 오늘은 저희가 사용하는 가장 중요한 Protocol인 TCP/IP과 Web에 대해 알아보도록 하겠습니다.</h3>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 15 Nov 2021&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2021/11/15/Attention-is-all-you-need.html">Attention is all you need</a></h2>
+    </li>
+</ul>
+<a href="/2021/11/15/Attention-is-all-you-need.html">
+    <script>
+        var str = `<h1 id="transfromer">Transfromer</h1>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+<p class="right" style="font-size: 12px;"><strong><br> &nbsp;&nbsp;&nbsp; 07 Nov 2021&nbsp;&nbsp;</strong></p>    
+<ul>
+    <li>
+        <h2><a href="/2021/11/07/Dropout-A-Simple-Way-to-Prevent-Neural-Networks-from-Overfitting.html">Dropout: a simple way to prevent neural networks from overfitting</a></h2>
+    </li>
+</ul>
+<a href="/2021/11/07/Dropout-A-Simple-Way-to-Prevent-Neural-Networks-from-Overfitting.html">
+    <script>
+        var str = `<h1 id="1-인트로">1. 인트로</h1>`
+        str.replace(/\n/g, "")
+        str = str.replace(/<a.+?>/g,"")
+        str = str.replace(/<\/a>/g,"")
+        document.write('<div class="preview"><p >',str,'</p></div>');
+
+        //if(str.indexOf("src")==-1) {
+        //    document.write('<div class="preview"><p >',str,'</p></div>');
+        //} else {
+        //    document.write(str);
+        //}
+        
+    </script>
+</a>
+<hr>
+
+		</body>
+	</div>
+</html>
